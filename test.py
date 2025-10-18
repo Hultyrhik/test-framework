@@ -1,0 +1,6 @@
+print("FFF")
+print("FFF")
+print("FFF")
+print("FFF")
+print("FFF")
+print("FFF")

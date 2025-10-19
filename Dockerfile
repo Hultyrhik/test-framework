@@ -38,4 +38,4 @@ COPY . .
 # RUN --mount=type=cache,target=/root/.cache/uv \
 #     uv sync
 
-CMD ["python", "test.py"]
+CMD ["python", "main.py"]

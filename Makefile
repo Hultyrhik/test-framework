@@ -1,5 +1,10 @@
 .DEFAULT_GOAL := test
 
-test:
-	docker compose up
+test: test_down
+	docker compose watch
+.PHONY: test
+
+test_down:
+	docker compose down
+.PHONY: test_down
 

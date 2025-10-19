@@ -2,3 +2,12 @@ services:
   test:
     build:
       context: ./
+    develop:
+      watch:
+        - path: ./
+          action: sync
+          target: /app
+          ignore:
+            - .venv
+        - path: ./pyproject.toml
+          action: rebuild

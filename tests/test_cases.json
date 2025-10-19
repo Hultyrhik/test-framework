@@ -23,5 +23,25 @@
     "type": "HTTP_REQUEST",
     "url": "https://tools.aimylogic.com/api/now?tz=Asia/Novosibirsk&format=dd/MM/yyyy",
     "timedelta_in_seconds": 0.00001
+  },
+  {
+    "type": "SYSTEM_CPU",
+    "duration_seconds": 30,
+    "max_cpu_percents": 50
+  },
+  {
+    "type": "SYSTEM_CPU",
+    "duration_seconds": 10,
+    "max_cpu_percents": 80
+  },
+  {
+    "type": "SYSTEM_CPU",
+    "duration_seconds": 5,
+    "max_cpu_percents": 5
+  },
+  {
+    "type": "SYSTEM_CPU",
+    "duration_seconds": 15,
+    "max_cpu_percents": 1
   }
 ]

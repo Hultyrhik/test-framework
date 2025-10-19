@@ -1,0 +1,27 @@
+[
+  {
+    "type": "HTTP_REQUEST",
+    "url": "https://tools.aimylogic.com/api/now?tz=Asia/Novosibirsk&format=dd/MM/yyyy",
+    "timedelta_in_seconds": 5
+  },
+  {
+    "type": "HTTP_REQUEST",
+    "url": "https://tools.aimylogic.com/api/now?tz=Asia/Novosibirsk&format=dd/MM/yyyy",
+    "timedelta_in_seconds": 10
+  },
+  {
+    "type": "HTTP_REQUEST",
+    "url": "https://tools.aimylogic.com/api/now?tz=Asia/Novosibirsk&format=dd/MM/yyyy",
+    "timedelta_in_seconds": 1
+  },
+  {
+    "type": "HTTP_REQUEST",
+    "url": "https://tools.aimylogic.com/api/now?tz=Asia/Novosibirsk&format=dd/MM/yyyy",
+    "timedelta_in_seconds": 0.001
+  },
+  {
+    "type": "HTTP_REQUEST",
+    "url": "https://tools.aimylogic.com/api/now?tz=Asia/Novosibirsk&format=dd/MM/yyyy",
+    "timedelta_in_seconds": 0.00001
+  }
+]

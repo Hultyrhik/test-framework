@@ -1,45 +1,54 @@
 [
   {
+    "test_name": "1",
     "type": "HTTP_REQUEST",
     "url": "https://tools.aimylogic.com/api/now?tz=Asia/Novosibirsk&format=dd/MM/yyyy",
     "timedelta_in_seconds": 5
   },
   {
+    "test_name": "2",
     "type": "HTTP_REQUEST",
     "url": "https://tools.aimylogic.com/api/now?tz=Asia/Novosibirsk&format=dd/MM/yyyy",
     "timedelta_in_seconds": 10
   },
   {
+    "test_name": "3",
     "type": "HTTP_REQUEST",
     "url": "https://tools.aimylogic.com/api/now?tz=Asia/Novosibirsk&format=dd/MM/yyyy",
     "timedelta_in_seconds": 1
   },
   {
+    "test_name": "4",
     "type": "HTTP_REQUEST",
     "url": "https://tools.aimylogic.com/api/now?tz=Asia/Novosibirsk&format=dd/MM/yyyy",
     "timedelta_in_seconds": 0.001
   },
   {
+    "test_name": "5",
     "type": "HTTP_REQUEST",
     "url": "https://tools.aimylogic.com/api/now?tz=Asia/Novosibirsk&format=dd/MM/yyyy",
     "timedelta_in_seconds": 0.00001
   },
   {
+    "test_name": "6",
     "type": "SYSTEM_CPU",
     "duration_seconds": 30,
     "max_cpu_percents": 50
   },
   {
+    "test_name": "7",
     "type": "SYSTEM_CPU",
     "duration_seconds": 10,
     "max_cpu_percents": 80
   },
   {
+    "test_name": "8",
     "type": "SYSTEM_CPU",
     "duration_seconds": 5,
     "max_cpu_percents": 5
   },
   {
+    "test_name": "9",
     "type": "SYSTEM_CPU",
     "duration_seconds": 15,
     "max_cpu_percents": 1
